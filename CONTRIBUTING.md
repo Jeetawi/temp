@@ -5,21 +5,33 @@ Thank you for considering contributing to this project!
 ## Getting Started
 
 1. Fork the repository.
-2. Clone your fork to your local machine.
-3. Create a new branch for your changes.
+2. Clone your fork locally:
+   ```bash
+   git clone <your-fork-url>
+   cd temp
+   ```
+3. Update `main` and create a focused branch:
+   ```bash
+   git switch main
+   git pull origin main
+   git switch -c docs/improve-contributing-guide
+   ```
 
 ## Making Changes
 
 1. Make your changes.
-2. Test your changes before submitting.
+2. Review the diff and test any code or documentation changes.
 3. Write clear and meaningful commit messages.
 4. Keep your changes small and focused.
 
 ## Submitting Changes
 
 1. Push your branch to GitHub.
-2. Open a Pull Request.
-3. Provide a clear description of your changes.
+   ```bash
+   git push -u origin docs/improve-contributing-guide
+   ```
+2. Open a Pull Request against `main`.
+3. Use a descriptive title and explain what changed and why.
 4. Wait for feedback and make any requested changes.
 
 ## Code Guidelines
